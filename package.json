@@ -1,0 +1,33 @@
+{
+  "name": "spirometaxas",
+  "version": "2.1.0",
+  "description": "The npx business card of Spiro Metaxas.",
+  "main": "./src/index.js",
+  "bin": {
+    "spirometaxas": "./src/index.js"  
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirometaxas/businesscard.git"
+  },
+  "homepage": "https://spirometaxas.com",
+  "scripts": {
+    "cli": "node ./src/index.js"
+  },
+  "author": {
+    "name" : "Spiro Metaxas",
+    "url" : "https://spirometaxas.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Spiro Metaxas", 
+    "spirometaxas", 
+    "businesscard", 
+    "business", 
+    "card", 
+    "npx card"
+  ]
+}
